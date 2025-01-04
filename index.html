@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="to-do.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>TO-DO LIST <img src="to-do-pic.png" alt="to-do-list-pic"/></h1>
+            <div class="row">
+                <input type="text" id="input-field" placeholder="Add your to-do list">
+                <button onclick="addTask()">ADD</button>
+            </div>
+            <ul id="list-container">
+                
+            </ul>
+            <select id="completed-container">
+                <option value="disabled selected">Completed Tasks</option>
+            </select>
+        </div>
+    </div>
+    <script src="to-do.js"></script>
+</body>
+</html>
